@@ -8,3 +8,8 @@ escaneia a posição 10
 ```
 scan 10
 ```
+
+selecionar database
+```
+select <id_table>
+```
