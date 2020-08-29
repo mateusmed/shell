@@ -13,3 +13,13 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 export NVM_DIR="/home/<USER>/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 ```
+
+#### configure plugins
+```
+plugins=(git
+         aws
+         docker
+         zsh-autosuggestions)
+```
+
+
