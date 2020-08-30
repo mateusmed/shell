@@ -1,3 +1,14 @@
+
+verificar versão no cmd:
+```
+wsl -l -v
+```
+
+open linux on dir windows 
+```
+explorer.exe .
+```
+
 O Bash perde conectividade de rede quando conectado a uma VPN
 Se, depois de se conectar a uma VPN no Windows, o Bash perder a conectividade de rede, 
 tente essa solução alternativa de dentro do Bash. Essa solução alternativa permitirá que você substitua manualmente a resolução DNS por meio do /etc/resolv.conf.
