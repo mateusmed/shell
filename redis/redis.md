@@ -13,3 +13,13 @@ selecionar database
 ```
 select <id_table>
 ```
+
+
+comandos:
+select - navega no indice
+set - adidicionada
+get - busca
+
+H - estrutura complexa
+HGETALL - lista todas as chaves de um objeto complexo.
+Z - lista
