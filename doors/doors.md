@@ -12,3 +12,8 @@ List port on windows:
 ```
 netstat -ano | findstr :8080
 ```
+
+
+```
+taskkill /pid <idTask> /f
+```
