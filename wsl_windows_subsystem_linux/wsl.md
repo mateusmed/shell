@@ -22,3 +22,8 @@ open linux on dir windows
 explorer.exe .
 ```
 
+
+If you need to install ubuntu image without microsoft store:
+```
+https://docs.microsoft.com/en-us/windows/wsl/install-manual
+```
