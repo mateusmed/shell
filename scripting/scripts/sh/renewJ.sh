@@ -1,10 +1,5 @@
 #!/bin/bash
 
-echo "====================="
-echo "Type option to renew"
-echo "1 - webStorm"
-echo "2 - goLang"
-echo "====================="
-
-read name
-echo "Hi $name.  I hope you like this script"
+rm ~/.WebStorm*/config/eval/WebStorm*.evaluation.key
+sed -i '/evlsprt/d' ~/.WebStorm*/config/options/other.xml
+rm -rf ~/.java/.userPrefs/jetbrains
