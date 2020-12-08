@@ -4,6 +4,11 @@ Recursos do windows, habilitar:
 
 Se tiver algum problema certifique-se que sua bios conf CPU está habilitada pra virtualização.
 
+instalação no link:
+```
+https://docs.microsoft.com/pt-br/windows/wsl/about
+```
+
 verificar versão no cmd:
 ```
 wsl -l -v
