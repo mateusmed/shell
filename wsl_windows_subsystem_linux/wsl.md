@@ -32,3 +32,18 @@ If you need to install ubuntu image without microsoft store:
 ```
 https://docs.microsoft.com/en-us/windows/wsl/install-manual
 ```
+
+
+Caso tenha algum problema com SNAP no WSL2, execute:
+```
+sudo apt-get update && sudo apt-get install -yqq daemonize dbus-user-session fontconfig
+```
+```
+sudo daemonize /usr/bin/unshare --fork --pid --mount-proc /lib/systemd/systemd --system-unit=basic.target
+```
+```
+exec sudo nsenter -t $(pidof systemd) -a su - $LOGNAME
+```
+
+
+agradeça à : https://github.com/sunliusi

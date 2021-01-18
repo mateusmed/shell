@@ -6,7 +6,6 @@ for WSL you need to install unzip:
 ```
 sudo apt-get install unzip -y
 ```
-
 Tutorial:
 ```
 https://deno.land/manual/getting_started/installation
