@@ -14,3 +14,11 @@ pm2 delete <name>
 ```
 pm2 logs
 ```
+
+```
+pm2 save
+```
+
+```
+pm2 startup [operation system]
+```
