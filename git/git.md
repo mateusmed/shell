@@ -15,3 +15,29 @@ To see tree in terminal:
 ```
 git log --graph --oneline --all
 ```
+
+Remove untracked files
+```
+git clean -f -d
+```
+
+Delete local branch
+```
+git branch -D <name>
+```
+
+Create branch from another
+```
+git checkout -b myFeature dev
+```
+
+
+Create branch from commit
+```
+git checkout -b NEW_BRANCH_NAME COMMIT_ID
+```
+
+revert commit 
+```
+git revert <commit_id>
+```
