@@ -8,6 +8,10 @@ pm2 start index.js
 ```
 
 ```
+pm2 restart <name>
+```
+
+```
 pm2 delete <name>
 ```
 
