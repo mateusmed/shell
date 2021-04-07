@@ -21,6 +21,11 @@ Remove untracked files
 git clean -f -d
 ```
 
+Remove add files, before push:
+```
+git reset
+```
+
 Delete local branch
 ```
 git branch -D <name>
