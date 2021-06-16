@@ -1,4 +1,4 @@
-login terminal as
+Jenkins
 
 
 to install follow:
@@ -11,16 +11,30 @@ jenkins will be installed on:
 /var/lib/jenkins
 ```
 
+
+Jenkins user is non interative shell\
+when you login you dont have something like .bashrc
+
 login as jenkins user:
 ```
 sudo su - jenkins
 ```
 
-install plugin what you want
+you can see default workspace
 
-define variable where
+install plugin language what you want\
+and define variable is installed, like:
+```
+/home/mateusmed/.nvm/versions/node/v14.16.0/bin/node
 ```
 
+add on:
 ```
+settings -> global tool configuration 
+```
+
+you need to add environment of build on you worker
+
+
 
 
