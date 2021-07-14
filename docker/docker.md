@@ -1,3 +1,11 @@
+
+pratice:
+```
+https://labs.play-with-docker.com/
+```
+
+
+
 ============ docker image tomcat7 ============
 
 pull image:
@@ -104,8 +112,80 @@ Dando permissão para rodar com o usuario corretamente
 ```
 $ sudo usermod -aG docker $USER
 ```
+=====================================
+
+O comando de remoção do sistema do docker removerá todos os contêineres parados,
+todas as imagens pendentes e todas as redes não utilizadas:
+
+```
+$ docker system prune
+```
+
+listando containers
+```
+docker container list
+```
+
+obtem informações sobre o container
+```
+docker inspect <id_container>
+```
+
+cria um container temporário
+```
+docker run -it alpine:3.9
+```
+
+```
+docker exec -it alpine:3.9 bash
+```
 
 
 
+## Imagens
+
+listando imagens:
+```
+docker image list
+```
+ou
+```
+docker images
+```
+
+remove imagem pelo ID:
+```
+$ docker rmi ID_ou_nome_da_imagem
+```
+
+rodando a imagem:
+```
+$ docker run nome_da_imagem
+```
+
+---
 
 
+
+## Rede
+criando rede:
+```
+docker network create --driver bridge minha-rede
+```
+
+listando network
+```
+docker network ls
+```
+
+Hostname
+```
+hostname
+```
+
+verificando ip
+```
+hostname -i
+```
+
+---
