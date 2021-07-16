@@ -42,3 +42,19 @@ Maiores detalhes ou problemas:
 ```
 https://github.com/codeedu/wsl2-docker-quickstart
 ```
+
+---
+Criando grupo docker
+```
+sudo groupadd docker
+```
+
+Adicionando usuario ao grupo
+```
+sudo usermod -aG docker $(whoami)
+```
+
+Retartando serviço:
+```
+sudo service docker start
+```
