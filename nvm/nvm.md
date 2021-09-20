@@ -19,7 +19,18 @@ Example of use:
 nvm use v13.6.0
 ```
 
+list versions locally:
+```
+nvm ls
+```
+
 check version:
 ```
 node -v
 ```
+
+set default version:
+```
+nvm alias default 6.9.2
+```
+
