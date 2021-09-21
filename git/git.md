@@ -26,6 +26,12 @@ Remove add files, before push:
 git reset
 ```
 
+
+Remove branch from REMOTE:
+```
+git push origin --delete <branchName>
+```
+
 Delete local branch
 ```
 git branch -D <name>
