@@ -1,0 +1,4 @@
+
+```
+update-java-alternatives --list
+```
