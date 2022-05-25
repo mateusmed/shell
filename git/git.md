@@ -48,7 +48,13 @@ Create branch from commit
 git checkout -b NEW_BRANCH_NAME COMMIT_ID
 ```
 
-revert commit 
+revert commit local
 ```
 git revert <commit_id>
+```
+
+remove last commit from remote:
+```
+git reset --hard <commit-hash>
+git push -f origin master
 ```
