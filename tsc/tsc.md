@@ -39,7 +39,6 @@ compile automatic when happend changes, list errors in realTime
 tsc -w
 ```
 
-
 install ts-node-dev
 ```
 npm install -D ts-node-dev
