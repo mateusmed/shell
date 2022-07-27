@@ -34,3 +34,9 @@ set default version:
 nvm alias default 6.9.2
 ```
 
+limit memory
+```
+node --max-old-space-size=350 $(which npm) install
+```
+
+
