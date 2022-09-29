@@ -30,3 +30,19 @@ connect use
 ```
 https://bradricorigg.medium.com/run-your-own-mainframe-using-hercules-mainframe-emulator-and-mvs-3-8j-tk4-55fa7c982553
 ```
+
+```
+https://wotho.ethz.ch/tk4-/MVS_TK4-_v1.00_Users_Manual.pdf
+```
+
+```
+HERC01 is a fully authorized user with full access to the RAKF users and profiles
+tables. The logon password is CUL8TR.
+ HERC02 is a fully authorized user without access to the RAKF users and profiles
+tables. The logon password is CUL8TR.
+ HERC03 is a regular user. The logon password is PASS4U.
+ HERC04 is a regular user. The logon password is PASS4U.
+ IBMUSER is a fully authorized user without access to the RAKF users and profiles
+tables. The logon password is IBMPASS. This account is meant to be used for
+recovery purposes only.
+```
