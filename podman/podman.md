@@ -33,3 +33,10 @@ podman pull docker.io/harisekhon/hbase:1.3
 ```
 podman stop <container_name>
 ```
+
+
+
+adicionando nano (por dentro do container):
+```
+ apk add nano
+```
