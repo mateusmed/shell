@@ -40,3 +40,8 @@ adicionando nano (por dentro do container):
 ```
  apk add nano
 ```
+
+especificando arquivo:
+```
+podman-compose -f podman-compose.yml up
+```
