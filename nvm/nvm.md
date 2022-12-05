@@ -40,3 +40,8 @@ node --max-old-space-size=350 $(which npm) install
 ```
 
 
+uninstall
+```
+nvm deactivate
+nvm uninstall 8.8.1
+``` 
