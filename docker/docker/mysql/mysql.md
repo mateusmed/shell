@@ -19,7 +19,7 @@ $docker run p 3307:3306 --name mysql-ctn -e MYSQL_ROOT_PASSWORD=root -d mysql
 podman run -p 3307:3306 --name mysql-ctn -e MYSQL_ROOT_PASSWORD=root -d mysql-server
 ```
 ```
-docker exec -it mysql-server
+docker exec -it mysql-ctn bash
 ```
 
 logando dentro do container:
