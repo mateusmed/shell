@@ -49,7 +49,7 @@ Antes:
 | mysql.session    | localhost |
 | mysql.sys        | localhost |
 +------------------+-----------+
-
+```
 
 depois:
 ```
