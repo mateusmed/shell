@@ -34,6 +34,10 @@ podman pull docker.io/harisekhon/hbase:1.3
 podman stop <container_name>
 ```
 
+parando todas as imagens:
+```
+podman stop $(podman ps -q)
+```
 
 
 adicionando nano (por dentro do container):
