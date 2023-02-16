@@ -49,3 +49,8 @@ especificando arquivo:
 ```
 podman-compose -f podman-compose.yml up
 ```
+
+removendo todas as imagens
+```
+podman rm -a
+```
