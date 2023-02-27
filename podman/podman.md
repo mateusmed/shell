@@ -47,10 +47,22 @@ adicionando nano (por dentro do container):
 
 especificando arquivo:
 ```
-podman-compose -f podman-compose.yml up
+podman-compose -f podman-compose.yml up -d
 ```
 
 removendo todas as imagens
 ```
 podman rm -a
 ```
+
+---
+
+```
+podman rm -f $(podman ps -aq)
+```
+```
+docker rmi -f $(docker images -aq)
+```
+
+
+
