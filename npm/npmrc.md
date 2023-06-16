@@ -39,4 +39,6 @@ Available npmrcs:
  * default
 ```
 
-
+caso não consiga acessar o npmrc, verifique qual versão do node vc está usando no "nvm"
+o npmrc é instalado dentro do node, portanto verique, mude para a versão que tem instalado
+para retornar para a configuração remota para o deafult
