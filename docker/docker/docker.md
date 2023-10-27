@@ -58,6 +58,10 @@ Dando permissão para rodar com o usuario corretamente
 $ sudo usermod -aG docker $USER
 ```
 
+```
+docker stop <container_name>
+```
+
 --- 
 
 #### removendo imagens e containers
