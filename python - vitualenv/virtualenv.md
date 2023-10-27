@@ -15,6 +15,11 @@ linux activate venv:
 source /env/bin/activate
 ```
 
+mabe in linux you need to set chmod to file activate
+```
+sudo chmod +x activate
+```
+
 install requirements inside env:
 
 ```
