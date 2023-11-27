@@ -58,3 +58,27 @@ remove last commit from remote:
 git reset --hard <commit-hash>
 git push -f origin master
 ```
+
+---
+
+merge commits in unic commit
+```
+git rebase -i HEAD~<num_de_commits>
+```
+
+after this appers something like edit 'nano'
+
+```
+pick <hash_1> commit 1
+pick <hash_2> commit 2
+
+# Rebase <hash_1>..<hash_2> onto <hash> (2 commands)
+```
+
+remove commits will want to override, save and:
+```
+git push -f origin master
+```
+
+
+
