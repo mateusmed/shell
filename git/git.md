@@ -70,7 +70,7 @@ after this appers something like edit 'nano'
 
 ```
 pick <hash_1> commit 1
-pick <hash_2> commit 2
+squash <hash_2> commit 2
 
 # Rebase <hash_1>..<hash_2> onto <hash> (2 commands)
 ```
