@@ -67,6 +67,7 @@ git rebase -i HEAD~<num_de_commits>
 ```
 
 after this appers something like edit 'nano'
+add the commits 'squash' to join a first commit
 
 ```
 pick <hash_1> commit 1
@@ -77,8 +78,11 @@ squash <hash_2> commit 2
 
 remove commits will want to override, save and:
 ```
-git push -f origin master
+git push -f origin <branch>
 ```
+
+the squash will be make a new line on timeline of git 
+but the commits will be joinned
 
 
 
