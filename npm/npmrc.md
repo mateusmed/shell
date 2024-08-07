@@ -71,3 +71,15 @@ email=<email>
 always-auth=true
 strict-ssl=false
 ```
+
+exemplo de configuracao default
+```
+# url principal
+registry=http://registry.npmjs.org/
+
+# config para certificados
+#cafile=C:\Users\msanto20\AppData\Local\Programs\Git\etc\ssl\certs\ca-certificates.crt
+
+# ignora a configuração SSL
+strict-ssl=false
+```
