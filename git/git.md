@@ -84,5 +84,15 @@ git push -f origin <branch>
 the squash will be make a new line on timeline of git 
 but the commits will be joinned
 
+clone by token:
+```
+git clone https://<token>@github.com/<user>/<project>.git
+```
+exemple:
+```
+git clone https://<token>@github.com/mateusmed/proj.git
+```
+
+
 
 
