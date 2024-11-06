@@ -23,3 +23,4 @@ alias intellij='nohup /home/mmed/dev/programs/idea2024-11/bin/idea &'
 alias dbeaver='nohup /home/c1333431/dev/programs/dbeaver/dbeaver &'
 alias chrome='/usr/bin/google-chrome'
 alias update-bash='source ~/.bashrc'
+
