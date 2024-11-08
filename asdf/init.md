@@ -11,12 +11,13 @@ isso vai gerar uma pasta .asdf no user
 Adicionar no PATH, por exemplo:
 
 ```
-	. $HOME/.asdf/asdf.sh
-	. $HOME/.asdf/completions/asdf.bash
+	export PATH=/bin:\
+                /usr/bin:\
+                /usr/local/bin:\
+                /home/mmed/.asdf/bin:\
+                /home/mmed/.asdf/shims:\
+                /home/mmed/.asdf/completions/asdf.bash:\
 ```
-
-isso faz um pre carregamento dos cripts e nao é necessário adicionar no export PATH
-
 
 adicionando o plugin do nodejs no asdf:
 
