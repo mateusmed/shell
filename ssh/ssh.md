@@ -27,11 +27,26 @@ ssh-copy-id -i id_rsa.pub mateusmed@192.168.0.19
 -------
 
 ### 3 - [cliente] logando:
+crie um arquivo "config"
+```
+touch config
+```
+adicione as configurações do seu servidor (indique sua chave -> RSA privada)
+```
+Host myserver
+    HostName server_address
+    User username
+    IdentityFile ~/.ssh/id_rsa
+```
+
+### 4 - [cliente] logando:
 ```
 ssh mateusmed@192.168.0.19
 ```
-obs: agora será solicitado a passphase cadastrado
+obs: agora será solicitado a passphase cadastrado (use a senha que vc configurou ao gerar a chave RSA)
 
+
+### pronto ssh descomplicado
 -------
 
 
