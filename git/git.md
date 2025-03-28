@@ -93,6 +93,11 @@ exemple:
 git clone https://<token>@github.com/mateusmed/proj.git
 ```
 
+update project repository key
+```
+git remote set-url origin https://<token>@github.com/mateusmed/proj.git
+```
+
 
 
 
