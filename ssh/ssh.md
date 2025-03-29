@@ -39,9 +39,9 @@ Host myserver
     IdentityFile ~/.ssh/id_rsa
 ```
 
-### 4 - [cliente] logando:
+### 4 - [cliente] logando (host):
 ```
-ssh mateusmed@192.168.0.19
+ssh myserver
 ```
 obs: agora será solicitado a passphase cadastrado (use a senha que vc configurou ao gerar a chave RSA)
 
