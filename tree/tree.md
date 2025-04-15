@@ -22,6 +22,7 @@ tree 3
 
 ---
 
+removendo uma pasta especifica
 ```
 tree -I node_modules
 ```
