@@ -18,3 +18,10 @@ uso:
 ```
 tree 3
 ```
+
+
+---
+
+```
+tree -I node_modules
+```
