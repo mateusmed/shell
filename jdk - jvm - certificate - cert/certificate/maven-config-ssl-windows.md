@@ -2,7 +2,10 @@
 
 Habilitando ssl maven intellij para usar os certificados do windows:
 
+vá para:
+```
 build, execution, deployment -> build tools -> maven -> runner
+```
 
 ```
 Delegate IDE build/run actions to maven  -> marcar como true
