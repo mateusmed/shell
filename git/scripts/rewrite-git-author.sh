@@ -39,3 +39,12 @@ echo "Para atualizar o servidor remoto, entre na pasta e execute:"
 echo "git push origin --force --all && git push origin --force --tags"
 
 
+# example
+#/home/mmed/developer/workspaceMateus/rewrite-git-author.sh                                            │
+#│ /home/mmed/developer/workspaceMateus/my-ngix && \                                                     │
+#│ cd /home/mmed/developer/workspaceMateus/my-ngix && \                                                  │
+#│ git push origin --force --all && \                                                                    │
+#│ git push origin --force --tags && \                                                                   │
+#│ git log -n 5 --format="%H %an <%ae> %s"
+
+
